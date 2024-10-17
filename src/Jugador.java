@@ -1,60 +1,48 @@
-public class Jugador
+
+public class Jugador{
     String nombre;
-    String posiciónDeJuego;
+    String posicionDeJuego;
     int edad;
     int numeroCamiseta;
 
-	public Jugador(String nombre, String posiciónDeJuego, int edad, int numeroCamiseta){
+	public Jugador(String nombre, String posicionDeJuego, int edad, int numeroCamiseta){
         this.nombre = nombre;
         this.posicionDeJuego = posicionDeJuego;
         this.edad = edad;
-        this numeroCamiseta = numeroCamiseta;
+        this.numeroCamiseta = numeroCamiseta;
     }
 
 
-    public void presentación(){
+    public void presentacion() {
 
-        System.out.println("El Jugador: "+ nombre);
-        System.out.println("Juega en la posición:  "+ posiciónDeJuego + "\n Tiene: "+edad+" años."+"\n Su numero de 	camiseta es: ");
+        System.out.println("El Jugador: " + nombre);
+        System.out.println("Juega en la posición:  " + posicionDeJuego + "\nTiene: " + edad + " años." + "\nSu numero de 	camiseta es: "+numeroCamiseta);
+        System.out.println(" ");
 
+    }
 
-        public void main (System []args){
+    public  static void main(String[] args){
 
-            Jugador jugador1 = new Jugador;
-            Jugador jugador2 = new Jugador;
-            Jugador jugador3 = new Jugador;
+        Jugador jugador1 = new Jugador("Henry Espinosa", "DEL", 18, 14);
+        Jugador jugador2 = new Jugador("Paco Montes","DC", 19, 20);
+        Jugador jugador3 = new Jugador("Elkin Diaz","MCO", 20, 21);
 
+        jugador1.presentacion();
+        jugador2.presentacion();
+        jugador3.presentacion();
 
-
-            jugador1(Elkin Diaz, ,MCO, 20, 21)
-            jugador2(Paco Montes, ,DC, 19, 21)
-            jugador3(Elkin Diaz, ,MCO, 20, 21)
-
-
-
-            jugador1.presentacion();
-            jugador2.presentacion();
-            jugador3.presentacion();
+    }
 
 
 
 
-            Scanner sc = new Scanner(System.in)
-            Jugador j1 = new Jugador;
 
-            System.out.println("Ingrese el nombre del jugador: ");
-            nombre = sc.nextLine();
 
-            System.out.println("Ingrese la posición en que juega: ");
-            posiciónDeJuego = sc.nextLine();
 
-            System.out.println("Ingrese la edad del jugador:  ");
-            edad = sc.nextInt();
 
-            System.out,println("Ingrese el número de camiseta: ");
-            numeroCamiseta= sc.nextInt();
 
-            jugador1.presentacion();
+
+
 
 
 
@@ -67,10 +55,3 @@ public class Jugador
         }
 
 
-
-
-    }
-
-
-
-}
