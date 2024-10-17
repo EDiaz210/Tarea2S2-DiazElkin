@@ -23,6 +23,8 @@ public class Jugador{
 
     public  static void main(String[] args){
 
+        //Valores Quemados
+
         Jugador jugador1 = new Jugador("Henry Espinosa", "DEL", 18, 14);
         Jugador jugador2 = new Jugador("Paco Montes","DC", 19, 20);
         Jugador jugador3 = new Jugador("Elkin Diaz","MCO", 20, 21);
