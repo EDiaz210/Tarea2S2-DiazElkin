@@ -21,6 +21,8 @@ public class Empleado {
     }
 
     public static void main(String[] args) {
+
+        // Valores Quemados
         /*
 
         Empleado empleado1 = new Empleado("Mark Anagumbla","Gerente", 1200.67F, "12-04-2022");
